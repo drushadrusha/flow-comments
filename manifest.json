@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "main.user.js" ],
+        "matches":          [   "https://the-flow.ru/*"],
+        "run_at": "document_end"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "Возвращает комментарии на the-flow.ru.",
+    "name":         "Flow Comments",
+    "version":      "1.0",
+    "icons": { "128": "icon-128.png"}
+}
